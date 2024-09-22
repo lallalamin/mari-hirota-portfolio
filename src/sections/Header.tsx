@@ -4,6 +4,7 @@ export const Header = () => {
       <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
         <a href='#home' className="nav-item">Home</a>
         <a href='#project' className="nav-item">Projects</a>
+        <a href='#experiences' className="nav-item">Experiences</a>
         <a href='#about' className="nav-item">About</a>
         <a href='#contact' className="nav-item">Contact</a>
       </nav>

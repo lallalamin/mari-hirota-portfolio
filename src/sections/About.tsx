@@ -2,7 +2,7 @@
 
 import { Card } from '@/components/Card';
 import { SectionHeader } from '@/components/SectionHeader';
-import bookImage from '@/assets/images/book-cover.png';
+import bookImage from '@/assets/images/book-cover1.png';
 import JavascriptIcon from '@/assets/icons/square-js.svg';
 import HTMLIcon from '@/assets/icons/html5.svg';
 import CssIcon from '@/assets/icons/css3.svg';
@@ -113,20 +113,20 @@ const hobbies = [
     top: '5%',
   },
   {
-    title: 'Photography',
-    emoji: '📸',
+    title: 'Crocheting',
+    emoji: '🧶',
     left: '50%',
     top: '5%',
   },
   {
-    title: 'Hiking',
-    emoji: '🥾',
+    title: 'Cooking',
+    emoji: '🥘',
     left: '35%',
     top: '40%',
   },
   {
-    title: 'Gaming',
-    emoji: '🎮',
+    title: 'Baking',
+    emoji: '🍰',
     left: '10%',
     top: '35%',
   },
@@ -138,8 +138,8 @@ const hobbies = [
     top: '45%',
   },
   {
-    title: 'Fitness',
-    emoji: '🏋️‍♀️',
+    title: 'Learning',
+    emoji: '🤓',
     left: '5%',
     top: '65%',
   },
@@ -147,6 +147,12 @@ const hobbies = [
     title: 'Reading',
     emoji: '📚',
     left: '45%',
+    top: '70%',
+  },
+  {
+    title: 'Guitar',
+    emoji: '🎸',
+    left: '55%',
     top: '70%',
   },
 ];
@@ -159,20 +165,21 @@ export const AboutSection = () => {
       <div className='container'>
         <SectionHeader
           eyebrow='About Me'
-          title='A Glimpse Into My World'
+          title='A Glance Into My World'
           description='Learn more about who I am, what I do, and what inspires me.'
         />
         <div className='mt-20 flex flex-col gap-8'>
           <div className='grid grid-cols-1 md:grid-cols-5 gap-8 lg:grid-cols-3'>
             <Card className='h-[320px] col-span-2 lg:col-span-1'>
               <CardHeader
-                title='My Reads'
-                description='Explore the books shaping my perspectives.'
+                title='Book'
+                description='Explore the books that I am reading currently.'
               />
-
-              <div className='w-40 mx-auto mt-2 md:mt-0'>
-                <Image src={bookImage} alt='Book cover' />
-              </div>
+              <a href="https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF" target='_blank'>
+                <div className='w-40 mx-auto mt-2 md:mt-0'>
+                  <Image src={bookImage} alt='Book cover' />
+                </div>
+              </a>
             </Card>
             <Card className='h-[320px] col-span-2 md:col-span-3 lg:col-span-2'>
               <CardHeader

@@ -18,6 +18,14 @@ export const Footer = () => {
               <span className='font-semibold'>Github</span>
               <ArrowUpRightIcon className="size-4" />
             </a>
+            <a href="https://www.youtube.com/@lallalamari" className='inline-flex items-center gap-1.5' target='_blank'>
+              <span className='font-semibold'>YouTube</span>
+              <ArrowUpRightIcon className="size-4" />
+            </a>
+            <a href="https://www.instagram.com/lallalamari/" className='inline-flex items-center gap-1.5' target='_blank'>
+              <span className='font-semibold'>Instagram</span>
+              <ArrowUpRightIcon className="size-4" />
+            </a>
           </nav>
         </div>
       </div>
