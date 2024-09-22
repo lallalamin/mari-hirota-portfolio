@@ -6,9 +6,21 @@ import bookImage from '@/assets/images/book-cover.png';
 import JavascriptIcon from '@/assets/icons/square-js.svg';
 import HTMLIcon from '@/assets/icons/html5.svg';
 import CssIcon from '@/assets/icons/css3.svg';
+import RstudioIcon from '@/assets/icons/rstudio.svg';
 import ReactIcon from '@/assets/icons/react.svg';
-import ChromeIcon from '@/assets/icons/chrome.svg';
+import AngularIcon from '@/assets/icons/angular.svg';
 import GithubIcon from '@/assets/icons/github.svg';
+import KotlinIcon from '@/assets/icons/kotlin.svg';
+import AndroidStudio from '@/assets/icons/andriodstudio.svg';
+import Dbeaver from '@/assets/icons/dbeaver.svg';
+import Docker from '@/assets/icons/docker.svg';
+import FirebaseIcon from '@/assets/icons/firebase.svg';
+import JavaIcon from '@/assets/icons/java.svg';
+import Jira from '@/assets/icons/jira.svg';
+import MaterialUI from '@/assets/icons/materialui.svg';
+import MongoDBIcon from '@/assets/icons/mongodb.svg';
+import NextJSIcon from '@/assets/icons/nextjs.svg';
+import PythonIcon from '@/assets/icons/python.svg';
 import mapImage from '@/assets/images/map.jpg';
 import smileMemoji from '@/assets/images/memoji-2.png';
 import { CardHeader } from '@/components/CardHeader';
@@ -32,16 +44,64 @@ const toolboxItems = [
     iconType: CssIcon,
   },
   {
+    title: 'Kotlin',
+    iconType: KotlinIcon,
+  },
+  {
     title: 'React',
     iconType: ReactIcon,
   },
   {
-    title: 'Chrome',
-    iconType: ChromeIcon,
+    title: 'Dbeaver',
+    iconType: Dbeaver,
+  },
+  {
+    title: 'Angular',
+    iconType: AngularIcon,
+  },
+  {
+    title: 'Docker',
+    iconType: Docker,
   },
   {
     title: 'Github',
     iconType: GithubIcon,
+  },
+  {
+    title: 'AndriodStudio',
+    iconType: AndroidStudio,
+  },
+  {
+    title: 'RStudio',
+    iconType: RstudioIcon,
+  },
+  {
+    title: 'Firebase',
+    iconType: FirebaseIcon,
+  },
+  {
+    title: 'Java',
+    iconType: JavaIcon
+  },
+  {
+    title: 'Jira',
+    iconType: Jira,
+  },
+  {
+    title: 'MaterialUI',
+    iconType: MaterialUI,
+  },
+  {
+    title: 'MongoDB',
+    iconType: MongoDBIcon,
+  },
+  {
+    title: 'NextJS',
+    iconType: NextJSIcon,
+  },
+  {
+    title: 'Python',
+    iconType: PythonIcon,
   },
 ];
 
@@ -95,7 +155,7 @@ export const AboutSection = () => {
   const constraintRef = useRef(null)
 
   return (
-    <div className='py-20 lg:py-28'>
+    <div className='py-20 lg:py-28' id='about'>
       <div className='container'>
         <SectionHeader
           eyebrow='About Me'
@@ -125,7 +185,7 @@ export const AboutSection = () => {
               <ToolboxItems
                 items={toolboxItems}
                 className='mt-6'
-                itemsWrapperClassName='animate-move-right [animation-duration:15s]'
+                itemsWrapperClassName='animate-move-right [animation-duration:25s]'
               />
             </Card>
           </div>
@@ -141,7 +201,7 @@ export const AboutSection = () => {
                 {hobbies.map((hobby) => (
                   <motion.div
                     key={hobby.title}
-                    className='inline-flex gap-2 px-6 bg-gradient-to-r from-emerald-200 to-sky-400 rounded-full py-1.5 absolute'
+                    className='inline-flex gap-2 px-6 bg-gradient-to-r from-lime-300 to-indigo-400 rounded-full py-1.5 absolute'
                     style={{
                       left: hobby.left,
                       top: hobby.top,
@@ -164,8 +224,8 @@ export const AboutSection = () => {
                 className='h-full w-full object-cover object-left-top'
               />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30 flex items-center justify-center">
-              <div className='absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]' />
-              <div className='absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10'></div>
+              <div className='absolute inset-0 rounded-full bg-gradient-to-r from-lime-300 to-indigo-400 -z-20 animate-ping [animation-duration:2s]' />
+              <div className='absolute inset-0 rounded-full bg-gradient-to-r from-lime-300 to-indigo-400 -z-10'></div>
                 <Image
                   src={smileMemoji}
                   alt='Smiling memoji'

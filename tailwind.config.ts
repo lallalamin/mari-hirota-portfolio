@@ -23,7 +23,12 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: 'var(--font-sans)',
-        serif: 'var(--font-serif)'
+        serif: 'var(--font-serif)',
+      },
+      zIndex: {
+        '-30': '-30',
+        '10': '10',
+        '20': '20',
       },
       animation: {
         'ping-large': 'ping-large 1s ease-in-out infinite',
