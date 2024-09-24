@@ -10,33 +10,33 @@ import { Card } from '@/components/Card';
 
 const portfolioProjects = [
   {
-    company: 'Acme Corp',
-    year: '2022',
-    title: 'Dark Saas Landing Page',
+    company: 'NearbyEats',
+    year: '2024',
+    title: 'Mobile Application',
     results: [
-      { title: 'Enhanced user experience by 40%' },
-      { title: 'Improved site speed by 50%' },
-      { title: 'Increased mobile traffic by 35%' },
+      { title: 'Helps users discover hidden gem restaurants nearby' },
+      { title: 'Real-time location updates' },
+      { title: 'Kotlin, YelpAPI, GoogleAPI, AndriodStudio' },
     ],
     link: 'https://youtu.be/4k7IdSLxh6w',
     image: darkSaasLandingPage,
   },
   {
-    company: 'Innovative Co',
-    year: '2021',
-    title: 'Light Saas Landing Page',
+    company: 'BrainCard',
+    year: '2024',
+    title: 'AI Generate Flashcard',
     results: [
-      { title: 'Boosted sales by 20%' },
-      { title: 'Expanded customer reach by 35%' },
-      { title: 'Increased brand awareness by 15%' },
+      { title: 'An AI-driven platform that generates study topics tailored to user preferences' },
+      { title: 'Learning improves retention by up to 50%' },
+      { title: 'OpenAI, Firebase, Stripe, Clerk, Javascript' },
     ],
     link: 'https://youtu.be/7hi5zwO75yc',
     image: lightSaasLandingPage,
   },
   {
-    company: 'Quantum Dynamics',
-    year: '2023',
-    title: 'AI Startup Landing Page',
+    company: 'CodeOasis',
+    year: '2024',
+    title: 'Platform for CS Student to Connect',
     results: [
       { title: 'Enhanced user experience by 40%' },
       { title: 'Improved site speed by 50%' },
