@@ -3,6 +3,7 @@ import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
 import nearByEats from '@/assets/images/nearbyeats.png';
 import braincards from '@/assets/images/braincard.png';
+import codeoasis from '@/assets/images/codeoasis.png';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
@@ -44,8 +45,8 @@ const portfolioProjects = [
       { title: 'Improved site speed by 50%' },
       { title: 'Increased mobile traffic by 35%' },
     ],
-    link: 'https://youtu.be/Z7I5uSRHMHg',
-    image: aiStartupLandingPage,
+    link: 'https://github.com/lallalamin/Code-Oasis',
+    image: codeoasis,
   },
 ];
 
