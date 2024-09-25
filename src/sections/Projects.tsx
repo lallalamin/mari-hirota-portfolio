@@ -1,6 +1,8 @@
 import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
+import nearByEats from '@/assets/images/nearbyeats.png';
+import braincards from '@/assets/images/braincard.png';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
@@ -18,8 +20,8 @@ const portfolioProjects = [
       { title: 'Real-time location updates' },
       { title: 'Kotlin, YelpAPI, GoogleAPI, AndriodStudio' },
     ],
-    link: 'https://youtu.be/4k7IdSLxh6w',
-    image: darkSaasLandingPage,
+    link: 'https://github.com/and101-final-proj-group18/and101-final-project',
+    image: nearByEats,
   },
   {
     company: 'BrainCard',
@@ -30,8 +32,8 @@ const portfolioProjects = [
       { title: 'Learning improves retention by up to 50%' },
       { title: 'OpenAI, Firebase, Stripe, Clerk, Javascript' },
     ],
-    link: 'https://youtu.be/7hi5zwO75yc',
-    image: lightSaasLandingPage,
+    link: 'https://ai-flashcards-stripe-hazel.vercel.app/',
+    image: braincards,
   },
   {
     company: 'CodeOasis',
