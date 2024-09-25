@@ -76,7 +76,7 @@ export const HeroSection = () => {
           </h1>
           <p className='mt-4 text-center text-white/60 md:text-lg'>
             I specialize in transforming designs into functional,
-            high-performing web applications. Let's discuss your next
+            high-performing web applications. Let&apos;s discuss your next
             project.
           </p>
         </div>
@@ -90,7 +90,7 @@ export const HeroSection = () => {
           <a href="https://www.linkedin.com/notifications/?filter=all" target='_blank' rel="noopener noreferrer" className='z-20'>
             <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
               <span>👋</span>
-              <span className='font-semibold'>Let's Connect</span>
+              <span className='font-semibold'>Let&apos;s Connect</span>
             </button>
           </a>
         </div>
