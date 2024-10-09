@@ -72,7 +72,7 @@ export const HeroSection = () => {
         </div>
         <div className='md:max-w-lg mx-auto'>
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>
-            I'm Mari Hirota! Welcome to my World
+            I&apos;m Mari Hirota! Welcome to my World
           </h1>
           <p className='mt-4 text-center text-white/60 md:text-lg'>
             I specialize in transforming designs into functional,
