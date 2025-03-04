@@ -3,7 +3,7 @@ import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
 import nearByEats from '@/assets/images/nearbyeats.png';
 import braincards from '@/assets/images/braincard.png';
-import codeoasis from '@/assets/images/codeoasis.png';
+import codeoasis from '@/assets/images/codeoasis_page.png';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
@@ -41,9 +41,9 @@ const portfolioProjects = [
     year: '2024',
     title: 'Platform for CS Student to Connect',
     results: [
-      { title: 'Enhanced user experience by 40%' },
-      { title: 'Improved site speed by 50%' },
-      { title: 'Increased mobile traffic by 35%' },
+      { title: 'A mentorship-driven platform helping CS students navigate their careers' },
+      { title: 'Features include mentorship pairing, event calendar, and career resources' },
+      { title: 'Designed to foster collaboration and knowledge-sharing in tech' },
     ],
     link: 'https://github.com/lallalamin/Code-Oasis',
     image: codeoasis,
